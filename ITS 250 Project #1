@@ -1,0 +1,65 @@
+print("ITS-250 Project 1")
+print("We will be doing the temperature of people to see if the have a fever")
+averageTemperature = "98.6"
+feverTemperature = "100.4"
+a = 15 
+print("15yr: Average Temperature")
+#patient age is 15yr, the temperature is 98.6
+averageTemperature="a"
+b = 30
+print("30yr: Fever Temperature")
+#patient age is 30yr, the temperature is 100.4
+feverTemperature="b"
+c = 45
+print("45yr: Fever Temperature")
+#patient age is 45yr, the temperature is 100.4
+feverTemperature="c"
+d = 65
+print("65yr: Average Temperature")
+#patient age is 60yr, the temperature is 98.6
+averageTemperature="d"
+print("Patient ages listed below:")
+num = 15
+while num <= 60:
+     print(num)
+     num = num + 15
+print("Please enter temperature of patient to determine if they have a fever or not:")
+userNum = input("Please enter temperature: ")
+print(userNum)
+
+
+if userNum > averageTemperature:
+    print("NO FEVER")
+print(userNum)
+
+
+if userNum < feverTemperature:
+    print("FEVER")
+#below are the patients a-d defined for the calulation and for loop
+patient_a= 15
+patient_b= 30
+patient_c= 45
+patient_d= 60
+print("Average age of patients within a hospital")
+patient_a+patient_b+patient_c+patient_d/4
+avg=(15+30+45+60)/4
+print(avg)
+
+print("Defining symptoms for patient")
+userNum = input("Please enter fever or no fever")
+#below is if else statement
+print(userNum)
+if userNum > feverTemperature:
+    print("Do not treat medically")
+else:
+    print("Treat medically")
+#Below is average of patients with a fever
+Fever= 100.6
+Nofever= 98.6
+patient_a= Fever
+patient_b= Nofever
+patient_c= Fever
+patient_d= Fever
+print("Average of patients with fever")
+avg=(2+2)/4
+print(avg)
